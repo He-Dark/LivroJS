@@ -1,0 +1,10 @@
+<meta charset="UTF-8">
+<script>
+   const preco = Number(prompt("Digite o preço do Produto"));
+   const desconto = (0.1 * preco)
+   const aVista = preco - desconto;
+   const qtsVezes = prompt("Digite em quantas vezes deseja dividir:");
+   const dividir = preco / qtsVezes;
+
+   alert(`Preço R$: ${preco.toFixed(2)}\nÀ vista R$: ${aVista.toFixed(2)}\nOu ${qtsVezes}x de R$: ${dividir.toFixed(2)}`)
+</script>
